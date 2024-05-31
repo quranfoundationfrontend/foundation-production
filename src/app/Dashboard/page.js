@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import {
   Box,
@@ -21,8 +21,22 @@ import RaisedTypesCharts from '../customComponents/components/Charts/RaisedTypes
 
 
 
+
 const page = () => {
 
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+          // Code that accesses the window object
+        }
+      }, []);
+
+    const memoizedValue = useMemo(() => {
+        if (typeof window !== 'undefined') {
+          // Memoized computation that accesses the window object
+          return window.someProperty;
+        }
+        return null;
+      }, []);
   const accoundBalance = 1223;
   const cashINHand = 45666
   const donors = 223;
