@@ -14,12 +14,9 @@ import {
   } from '@cloudscape-design/components';
 import BeneficiariesChart from '../customComponents/components/Charts/BeneficiariesChart'; 
 import DonorsCharts from '../customComponents/components/Charts/DonorsCharts'; 
-import DemoLineChart from '../customComponents/components/Charts/DemoLineChart'; 
 import Link from 'next/link';
-// import EventsTable from '';
 import Volunteer from '../customComponents/components/Charts/Volunteer ';
 import BeneficiariesPieChart from '../customComponents/components/Charts/BeneficiariesPieChart';
-// import  from '@/components/Charts/RaisedByTYpe';
 import RaisedTypesCharts from '../customComponents/components/Charts/RaisedTypesCharts';
 
 
