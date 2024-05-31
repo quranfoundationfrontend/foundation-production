@@ -8,7 +8,7 @@ const CustomLink = ({ href, children }) => (
   </Link>
 );
 
-const SideNavigation = () => {
+const Sidebar = () => {
   const items = [
     { type: 'link', text: 'Dashboard', href: '/dashboard'  },
     { type: 'link', text: 'Search', href: '/search' },
@@ -84,4 +84,4 @@ const SideNavigation = () => {
   );
 };
 
-export default SideNavigation;
+export default Sidebar;
